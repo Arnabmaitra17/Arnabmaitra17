@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tourney:wght@900&display=swap');
+body{
+  background: linear-gradient(rgba(227, 252, 10, 0.959),rgb(238, 186, 90),rgba(90, 109, 95, 0.767));
+  background-repeat: no-repeat;
+}
+button{
+  border-radius: 15px;
+  border: none;
+  background-image: linear-gradient(rgba(255, 246, 246, 0.795),rgb(192, 233, 212));
+  color: rgb(0, 0, 0);
+  padding: 8px;
+}
+button:hover{
+  transition: 400ms;
+  transform:scale(1.1);
+}
+button:focus{
+  outline: none;
+}
+nav{
+  color: rgb(18, 223, 238);
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+.loader{
+  margin: 0 auto;
+}
+.avatar{
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+#main{
+  padding: 20px 100px;
+  margin: 0 auto;
+  display: none;
+}
+#main img{
+  animation-delay: 10s;
+}
+.profile {
+  max-width: 350px;
+  margin: 30px auto;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 40px;
+  border-color: rgba(255, 37, 139, 0.986);
+  border-style:solid;
+  border-width: 20px;
+  border-radius: 40px;
+  background: linear-gradient(-45deg , #35dd0b, #f704c2);
+}
+.profile:hover{
+  transition:500ms;
+  box-shadow: 50px 50px 30px rgba(0, 0, 0, 0.6);
+}
+.name{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-variant: small-caps;
+  color: rgb(81, 255, 0);
+  font-size:30px;
+  font-weight: bold and initial;
+}
+.email {
+  background-color: #b20aff;
+  border-radius: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-size: 15px;
+  overflow-wrap: break-word;
+}
